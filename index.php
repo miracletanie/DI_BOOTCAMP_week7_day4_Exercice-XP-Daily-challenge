@@ -1,5 +1,13 @@
 <?php
 
+
+/**
+le nom du fichier que tu as cree est my_data.JSON
+je vois dans le code que tu as mis un fichier data.json
+soit tu as copié le code quelque part sans tester
+soit tu ne sais pas ce que tu as fait.
+
+*/
 $json_data = file_get_contents("data.json");
 $data = json_decode($json_data, true);
 
